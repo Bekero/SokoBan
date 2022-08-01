@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SokoBan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <div><h2 class="h2-title">SokoBan-Game</h2></div>
+
+  <div class="score">Score: <span></span></div>
+  <table> 
+    <tbody onclick="handleKey(event)" class="board"></tbody> 
+  </table>
+
+  <div class="lose-modal"></div>
+  <div class="win-modal"></div>
+  <h4 class="me">By Or Beker</h4>
+
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
